@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/activity_background">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="36dp">
+
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+
+                android:src="@drawable/abc"
+                android:layout_gravity="center"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="IMC"
+                android:gravity="center"
+                android:textSize="30sp"
+
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_margin="10dp"
+                android:padding="10dp"
+
+                android:background="@drawable/edit_text"
+
+                android:drawableStart="@drawable/ic_baseline_airplanemode_active_24"
+                android:hint=" Digite sua altura"
+
+
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_margin="10dp"
+                android:padding="10dp"
+
+                android:background="@drawable/edit_text"
+
+                android:hint="Digite sua massa"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:background="@drawable/ic_launcher_background"
+                android:text="Calcular"
+                android:textAllCaps="false"
+
+                />
+
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:padding="15dp"
+                android:textSize="60sp"
+                android:textStyle="bold"
+                android:text="100"
+
+                android:background="@drawable/result_style"
+                android:layout_gravity="center"
+
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:textColor="@color/tomato"
+                android:layout_gravity="center"
+                android:textSize="35sp"
+
+                android:text="Você é gordo!!"
+                android:textAlignment="center"
+
+
+                />
+
+
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>
